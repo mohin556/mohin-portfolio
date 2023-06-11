@@ -158,7 +158,7 @@
         letter-spacing: .05rem;
     }
     #hero{
-        background-image: url(../../image/office-table-with-cup-coffee-keyboard-notepad_1220-4584\ -\ Copy.jpg);
+        background-image: url(../../image/back3.PNG);
         background-size: cover;
         background-position: top center;
         position: relative;
@@ -184,7 +184,8 @@
     #hero h1{
         display: block;
         width: fit-content;
-        color: transparent;
+        /* color: transparent; */
+        color: white;
         position: relative;
         font-size: 4rem;
         animation: text_reval .5s forwards;
@@ -212,7 +213,6 @@
         
     }
     
-    
     #hero h1 span{
         position: absolute;
         top: 0;
@@ -230,5 +230,57 @@
     }
     .brand h1 span{
         color: gold;
+    }
+    .cta{
+        display: inline-block;
+        padding: 10px 30px;
+        color: white;
+        background-color: transparent;
+        border: 2px solid whitesmoke;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 30px;
+        transition: 3s ease;
+        transition-property: background-color,color;
+    }
+     .cta:hover{
+        color:white;
+        background-color: gold;
+    }
+
+    @keyframes hamburger_puls{
+        0%{
+            opacity: 1;
+            transform: scale(1);
+        }
+        100%{
+            opacity: 0;
+            transform: scale(1.4);
+        }
+    }
+    
+    
+    
+    @keyframes text_reval_box{
+        50%{
+            width: 100%;
+            left: 0;
+        }
+        100%{
+            width: 0;
+            left: 100%;
+        }
+    }
+    @keyframes text_reval{
+        100%{
+            color: white;
+        }
+    }
+    @keyframes text_reval_name{
+        100%{
+            color: gold;
+            font-weight: 700;
+        }
     }
     

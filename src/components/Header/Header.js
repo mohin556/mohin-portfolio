@@ -3,7 +3,7 @@ import './Header.css';
 const Header = () => {
     return (
            <div className='header-main'>
-              <section id="header">
+              {/* <section id="header">
         <div class="header container">
           <div class="nav-bar">
            <div class="brand">
@@ -21,13 +21,13 @@ const Header = () => {
            </div>
           </div>
         </div>
-     </section>
+     </section> */}
      <section id="hero">
          <div class="hero container">
              <div>
                 <h1>Hello,<span></span> </h1>
                 <h1>My Name is <span></span></h1>
-                <h1>Mohin <span></span></h1>
+                <h1>Mohin Al Hoque<span></span></h1>
                 <a href="#projects" type="button" class="cta"> Portfolio </a>
              </div>
          </div>
