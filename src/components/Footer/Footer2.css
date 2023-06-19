@@ -1,0 +1,33 @@
+#footer{
+    background-color:  #111;
+  
+}
+.footer-container{
+    max-width: 100%;
+   padding: 70px 30px 20px;
+   
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.footer-container img{
+    height: 50px;
+    width: 50px;
+   
+}
+.footer-container a img{
+   
+ 
+    opacity: 0.9;
+}
+
